@@ -37,8 +37,5 @@ def won(board)
 end
 
 def full(board)
-  spacecounter = 0
-  board.each do |space|
-    if space != " " || "" || "  " || nil
-      spacecounter +=1
-      
+  board.all 
+end    
