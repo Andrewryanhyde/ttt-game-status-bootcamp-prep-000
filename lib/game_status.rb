@@ -36,6 +36,6 @@ def won?(board)
   end
 end
 
-def full(board)
+def full?(board)
   board.all? {|index| index == "X" || index == "O"}
 end    
