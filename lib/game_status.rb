@@ -61,4 +61,5 @@ end
 def winner(board) 
   winning_combo = []
   winning_combo = won?(board)
-  
+  if winning_combo == false
+    
