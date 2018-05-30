@@ -38,5 +38,9 @@ end
 
 def full(board)
   board.all? do |index| 
-    
+    if index == "X" || index == "O"
+      return true 
+    else 
+      return false 
+    end
 end    
