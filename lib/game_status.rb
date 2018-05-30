@@ -66,4 +66,8 @@ def winner(board)
   else 
     if board[winning_combo[0]] == "X"
       return "X"
-      
+    else 
+      return "O"
+    end
+  end
+end
