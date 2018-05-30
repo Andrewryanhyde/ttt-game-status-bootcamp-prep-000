@@ -18,18 +18,18 @@ WIN_COMBINATIONS = [
 
 def won(board)
   win_combination_1 = WIN_COMBINATIONS[0]
-  win_combination_2 = WIN_COMBINATIONS[0][1]
-  win_combination_3 = WIN_COMBINATIONS[0][2]
-  win_combination_4 = WIN_COMBINATIONS[0][3]
-  win_combination_5 = WIN_COMBINATIONS[0][4]
-  win_combination_6 = WIN_COMBINATIONS[0][5]
-  win_combination_7 = WIN_COMBINATIONS[0][6]
-  win_combination_8 = WIN_COMBINATIONS[0][7]
+  win_combination_2 = WIN_COMBINATIONS[1]
+  win_combination_3 = WIN_COMBINATIONS[2]
+  win_combination_4 = WIN_COMBINATIONS[3]
+  win_combination_5 = WIN_COMBINATIONS[4]
+  win_combination_6 = WIN_COMBINATIONS[5]
+  win_combination_7 = WIN_COMBINATIONS[6]
+  win_combination_8 = WIN_COMBINATIONS[7]
 
   
   win_index_1 = win_combination_1[0]
-  win_index_2 = win_combination_2[1]
-  win_index_3 = WIN_COMBINATIONS[2]
+  win_index_2 = win_combination_1[1]
+  win_index_3 = win_combination_1[2]
  
   
   position_1 = board[win_index_1]
