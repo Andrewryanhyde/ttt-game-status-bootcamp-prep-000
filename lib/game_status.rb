@@ -64,4 +64,6 @@ def winner(board)
   if winning_combo == false
     return nil
   else 
-    if board
+    if board[winning_combo[0]] == "X"
+      return "X"
+      
