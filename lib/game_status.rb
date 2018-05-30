@@ -18,17 +18,17 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each {|win_combination|
-    win_index_1 = win_combination[0]
-    win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
+    win_index_0 = win_combination[0]
+    win_index_1 = win_combination[1]
+    win_index_2 = win_combination[2]
     
-    position_1 = board[win_index_1]
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
+    position_0 = board[win_index_1]
+    position_1 = board[win_index_2]
+    position_2 = board[win_index_3]
     
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    if position_0 == "X" && position_1 == "X" && position_2 == "X"
       return win_combination
-    elseif position_1 == "O" && position_2 == "O" && position_3 == "O"
+    elseif position_0 == "O" && position_1 == "O" && position_2 == "O"
       return win_combination
     end
   }
