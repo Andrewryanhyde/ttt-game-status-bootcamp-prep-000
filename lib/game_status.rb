@@ -22,9 +22,9 @@ def won?(board)
     win_index_1 = win_combination[1]
     win_index_2 = win_combination[2]
     
-    position_0 = board[win_index_1]
-    position_1 = board[win_index_2]
-    position_2 = board[win_index_3]
+    position_0 = board[win_index_0]
+    position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
     
     if position_0 == "X" && position_1 == "X" && position_2 == "X"
       return win_combination
